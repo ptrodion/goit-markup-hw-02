@@ -93,10 +93,10 @@ body {
 .header-link:is(:hover, :focus) {
   color: var(--text-accent-color);
 }
-/*.header-address {} */
-
-.header-contact-link {
+.header-address {
   font-style: normal;
+}
+.header-contact-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-secondary-color);
