@@ -3,9 +3,10 @@
   --bkg-primary-color: #ffffff;
   --bkg-secondary-color: #2e2f42;
   /** text colors */
-  --text-primary-color: #2e2f42;
-  --text-secondary-color: #434455;
+  --text-primary-color: #434455;
+  --text-secondary-color: #2e2f42;
   --text-accent-color: #404bbf;
+  --text-logo: #4d5ae5;
 }
 
 /** set common values start */
@@ -30,7 +31,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -40,7 +41,7 @@ body {
 }
 
 .logo-secondary-text {
-  color: #4d5ae5;
+  color: var(--text-logo);
 }
 
 .main-brg-text {
