@@ -28,22 +28,18 @@ body {
 /**-----------COMPONENTS-------------*/
 
 .logo {
+  color: var(--text-logo);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logo-primary-text {
-  color: inherit;
+.logo-text {
+  color: var(--text-primary-color);
 }
-
-.logo-secondary-text {
-  color: var(--text-logo);
-}
-
 .main-brg-text {
   background: var(--bkg-secondary-color);
   color: #ffffff;
