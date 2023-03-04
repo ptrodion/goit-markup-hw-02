@@ -126,6 +126,7 @@ body {
 
 .hero-button:is(:hover, :focus) {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 /** -----------ABOUT-------------*/
@@ -166,7 +167,8 @@ body {
 /* .projects-subtitle {} */
 /* .projects-text {} */
 
-.projects-button:is(:hover, :focus) {
+.projects-button:is(:hover, :focus, ) {
   color: #ffffff;
   background: #404bbf;
+  cursor: pointer;
 }
