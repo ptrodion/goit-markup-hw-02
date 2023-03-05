@@ -46,6 +46,7 @@ body {
 }
 /* it`s descride headings H3  */
 .secondary-subtitle {
+  color: var(--text-secondary-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -53,6 +54,7 @@ body {
 }
 
 .lead {
+  color: var(--text-primary-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -119,11 +121,11 @@ body {
   letter-spacing: 0.04em;
   color: inherit;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button:is(:hover, :focus) {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 /** -----------ABOUT-------------*/
@@ -153,12 +155,14 @@ body {
 /**-----------PORTFOLIO-------------*/
 /* .projects {} */
 .projects-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background: #f4f4fd;
+  cursor: pointer;
 }
 /* .projects-tittle {} */
 /* .projects-subtitle {} */
@@ -167,5 +171,4 @@ body {
 .projects-button:is(:hover, :focus, ) {
   color: #ffffff;
   background: #404bbf;
-  cursor: pointer;
 }
