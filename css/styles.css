@@ -33,7 +33,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   /* line-height: 1.5; */
-  /* line-height: 1.17; */
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -63,6 +63,7 @@ body {
 
 /* it`s descride headings H2 */
 .primary-subtitle {
+  color: var(--text-secondary-color);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -71,6 +72,7 @@ body {
 }
 
 .headline {
+  color: var(--text-secondary-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -148,6 +150,11 @@ body {
 }
 /**-----------FOOTER-------------*/
 /*.footer {} */
+
+.logo-text-footer {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
