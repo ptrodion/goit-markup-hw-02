@@ -6,7 +6,7 @@
   --text-primary-color: #434455;
   --text-secondary-color: #2e2f42;
   --text-accent-color: #404bbf;
-   --text-logo: #4d5ae5; */
+  --text-logo: #4d5ae5;
 }
 
 /** set common values start */
@@ -28,19 +28,18 @@ body {
 /**-----------COMPONENTS-------------*/
 
 .logo {
-  /* color: var(--text-logo); */
-  color: var(--text-secondary-color);
+  color: var(--text-logo);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   /* line-height: 1.5; */
-  line-height: 1.17;
+  /* line-height: 1.17; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .logo-text {
-  color: var(--text-primary-color);
+  color: var(--text-secondary-color);
 }
 .main-brg-text {
   background: var(--bkg-secondary-color);
@@ -60,7 +59,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-secondary-color);
 }
 
 /* it`s descride headings H2 */
@@ -85,9 +83,10 @@ body {
 
 .header-link {
   font-weight: 500;
-  line-height: 1.33;
+  /* line-height: 1.33; */
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--text-secondary-color);
 }
 
 .header-link:is(:hover, :focus) {
@@ -99,7 +98,7 @@ body {
 .header-contact-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-secondary-color);
+  color: var(--text-primary-color);
 }
 
 .header-contact-link:is(:hover, :focus) {
